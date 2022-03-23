@@ -1,0 +1,194 @@
+/* admin section */
+body {
+  background-color: #dcdcdc;
+}
+section {
+  overflow: hidden;
+}
+section .col-md-7 {
+  height: 100vh;
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+section .col-md-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .col-md-5 form {
+  width: 61%;
+  border: 1px solid #dfdfdf;
+  padding: 17px 20px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+section .col-md-5 form input {
+  margin-bottom: 20px;
+}
+section .col-md-5 form label {
+  color: #223d48;
+}
+section .col-md-5 .form-group input {
+  border-radius: 0;
+  padding: 6px 31px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px rgb(0 0 0 / 70%);
+}
+section .col-md-5 .form-group {
+  text-align: center;
+  margin-bottom: 0;
+}
+/* navbar */
+nav {
+  background-color: #343a40;
+  color: #fff;
+  height: 67px;
+}
+nav h2 {
+  font-size: 18px;
+  line-height: 67px;
+  padding: 0 34px;
+}
+nav h6 {
+  margin-left: auto;
+  padding: 20px 68px;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.dashboard .menu {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #2e2e2e, #c70000, #af7a7a);
+}
+.dashboard .col-md-3 {
+  height: 100vh;
+}
+.dashboard .menu ul li {
+  display: block;
+  display: block;
+  padding: 21px 0;
+  text-align: center;
+}
+.dashboard .menu ul li a {
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.dashboard .card,
+.tables {
+  width: 100%;
+  margin-top: 20px;
+}
+.dashboard .card form {
+  padding: 15px;
+}
+.dashboard .card form label {
+  margin-bottom: 15px;
+}
+.dashboard .tables {
+  background-color: #fff;
+  padding: 15px;
+  width: 95%;
+  border-radius: 5px;
+}
+.green {
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  z-index: 3;
+  background-color: #09a109;
+  padding: 10px 20px;
+  color: #fff;
+  /* border: 1px solid #ccc; */
+  border-radius: 2px;
+  opacity: 0.8;
+}
+.red {
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  z-index: 3;
+  background-color: red;
+  padding: 10px 20px;
+  color: #fff;
+  /* border: 1px solid #ccc; */
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+/* navbar */
+/* site setting */
+.dashboard .site-setting {
+  background-color: #fff;
+  width: 98%;
+  padding: 20px;
+  margin-top: 10px;
+}
+.dashboard .site-setting .sub-btn input[type="submit"] {
+  padding: 9px 25px;
+}
+.dashboard .site-setting .sub-btn {
+  text-align: center;
+}
+.dashboard .site-setting textarea {
+  height: 150px;
+}
+/*check-un*/
+.catagory-check {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+.catagory-check span {
+  display: block;
+  color: #8f8f8f;
+  margin-bottom: 11px;
+}
+/*checkin*/
+.aside {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: none;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.aside h2 {
+  padding: 13px;
+  border: 1px solid #ddd;
+  font-size: 24px;
+  color: #7c7c7c;
+  margin-top: 26px;
+  text-transform: capitalize;
+}
+.aside div {
+  width: 500px;
+  margin: 70px auto;
+  background-color: #fff;
+  /* padding: 13px;*/
+}
+.aside form {
+  padding: 10px 23px;
+}
+.aside form input {
+  margin-bottom: 15px;
+}
+.aside form label {
+  text-transform: capitalize;
+}
+.aside footer {
+  position: relative;
+}
+.aside button {
+  border-radius: 0;
+}
